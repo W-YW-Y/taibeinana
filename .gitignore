@@ -27,3 +27,6 @@ pnpm-debug.log*
 .env
 .env.local
 .env.*.local
+
+# 本地 npm 配置(镜像源,不上传)
+.npmrc
