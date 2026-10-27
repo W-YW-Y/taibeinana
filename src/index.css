@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* 让暗色模式由 html 上的 .dark 类控制,而不是跟随系统 */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* 主题切换时的颜色过渡 */
+html {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
